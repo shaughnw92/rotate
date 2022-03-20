@@ -1,0 +1,57 @@
+@keyframes slidein {
+	from {
+		margin-left: -50%;
+	}
+
+	to {
+		margin-left: 0%;
+	}
+}
+
+@keyframes slideout {
+	from {
+		margin-left: 0%;
+	}
+
+	to {
+		margin-left: -50%;
+	}
+}
+
+@keyframes slidedown {
+	from {
+		margin-top: -50%;
+	}
+
+	to {
+		margin-top: 0%;
+	}
+}
+
+@keyframes slideup {
+	from {
+		margin-top: 0%;
+	}
+
+	to {
+		margin-top: -50%;
+	}
+}
+
+@keyframes flipup {
+	0% {
+		transform: translate3d(0, 80px, 0);
+		opacity: 0;
+	}
+
+	20%,
+	80% {
+		transform: translate3d(0, 0, 0);
+		opacity: 1;
+	}
+
+	100% {
+		transform: translate3d(0, -40px, 0);
+		opacity: 0;
+	}
+}
